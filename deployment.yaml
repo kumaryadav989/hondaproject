@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/name: mkyapp
     spec:
       containers:
-      - image: kumaryadav989/digital:latest
+      - image: bitnami/nginx:latest
         imagePullPolicy: Always
         name: mkyapp
         ports:
